@@ -5,13 +5,13 @@ import (
 	"github.com/go-chi/chi/v5/middleware"
 	"go.uber.org/zap"
 
-	"github.com/iamNilotpal/iam/internal/config"
-	group_handlers "github.com/iamNilotpal/iam/internal/handlers/group"
-	role_handlers "github.com/iamNilotpal/iam/internal/handlers/role"
-	user_handlers "github.com/iamNilotpal/iam/internal/handlers/user"
-	group_service "github.com/iamNilotpal/iam/internal/services/group"
-	role_service "github.com/iamNilotpal/iam/internal/services/role"
-	user_service "github.com/iamNilotpal/iam/internal/services/user"
+	"github.com/iamBelugaa/iam/internal/config"
+	group_handlers "github.com/iamBelugaa/iam/internal/handlers/group"
+	role_handlers "github.com/iamBelugaa/iam/internal/handlers/role"
+	user_handlers "github.com/iamBelugaa/iam/internal/handlers/user"
+	group_service "github.com/iamBelugaa/iam/internal/services/group"
+	role_service "github.com/iamBelugaa/iam/internal/services/role"
+	user_service "github.com/iamBelugaa/iam/internal/services/user"
 )
 
 const (

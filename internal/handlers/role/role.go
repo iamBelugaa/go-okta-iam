@@ -8,9 +8,9 @@ import (
 	"github.com/go-chi/chi/v5"
 	"go.uber.org/zap"
 
-	"github.com/iamNilotpal/iam/internal/models"
-	role_service "github.com/iamNilotpal/iam/internal/services/role"
-	"github.com/iamNilotpal/iam/pkg/response"
+	"github.com/iamBelugaa/iam/internal/models"
+	role_service "github.com/iamBelugaa/iam/internal/services/role"
+	"github.com/iamBelugaa/iam/pkg/response"
 )
 
 type Handler struct {

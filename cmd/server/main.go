@@ -13,12 +13,12 @@ import (
 	"github.com/joho/godotenv"
 	"go.uber.org/zap"
 
-	"github.com/iamNilotpal/iam/internal/config"
-	"github.com/iamNilotpal/iam/internal/handlers"
-	group_service "github.com/iamNilotpal/iam/internal/services/group"
-	user_service "github.com/iamNilotpal/iam/internal/services/user"
-	"github.com/iamNilotpal/iam/pkg/logger"
-	"github.com/iamNilotpal/iam/pkg/okta"
+	"github.com/iamBelugaa/iam/internal/config"
+	"github.com/iamBelugaa/iam/internal/handlers"
+	group_service "github.com/iamBelugaa/iam/internal/services/group"
+	user_service "github.com/iamBelugaa/iam/internal/services/user"
+	"github.com/iamBelugaa/iam/pkg/logger"
+	"github.com/iamBelugaa/iam/pkg/okta"
 )
 
 func main() {
